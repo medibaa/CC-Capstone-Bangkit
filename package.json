@@ -1,0 +1,30 @@
+{
+  "name": "pet-2-home",
+  "version": "1.0.0",
+  "description": "aplikasi pet2home",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dindafathihah/cc-pet2home.git"
+  },
+  "author": "dindafathihah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dindafathihah/cc-pet2home/issues"
+  },
+  "homepage": "https://github.com/dindafathihah/cc-pet2home#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
